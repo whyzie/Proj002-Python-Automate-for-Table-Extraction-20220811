@@ -1,0 +1,11 @@
+'''Project #1 Table Extraction - Extract Tables from Websites
+Target website https://www.idxchannel.com/market-stock.php 
+In the terminal pip instal pandas , in jupiter notebook as in lesson uses !pip instal pandas
+pip install jupyter 
+1 Extract tables on the website - using pandas'''
+import pandas as pd
+import lxml
+
+market_stock_072522 = pd.read_html('https://www.idxchannel.com/market-stock')
+
+print(market_stock_072522)
