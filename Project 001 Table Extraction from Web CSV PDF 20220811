@@ -356,12 +356,13 @@ tables.export('EconomyResearch20220808.csv', f='csv')
 
 ## Table Extraction in PDF
 Again in this article, we are focusing on getting the table from the website.
-1. **If there is a problem linking with the path in the website**, you can download the pdf and place it in your chosen folder. In the path in your code, you use double slash (**\\\**) example: "E:**\\\**2022**\\\**00. BODY of KNOWLEDGE**\\\**filename.pdf"
+1. **If there is a problem linking with the path in the website**, you can download the pdf and place it in your chosen folder. 
+   In the path in your code, you use double slash (**\\\**) example: "E:**\\\**2022**\\\**00. BODY of KNOWLEDGE**\\\**filename.pdf"
 2. **Module error** , module 'camelot' has no attribute 'read_pdf'. 
-In this article, we use pip *install camelot-py[all]* rather than camelot or just camelot-py to resolve it.
+   In this article, we use pip *install camelot-py[all]* rather than camelot or just camelot-py to resolve it.
 3. **RuntimeError**: Please make sure that Ghostscript is installed for Windows.
-This solution is solved by downloading ghostscript as mentioned in the beginning.
-4. There is also the next level that we need to open the url if we can not get the file in the url, in this article we go to no.1 or download.
+   This solution is solved by downloading ghostscript as mentioned in the beginning.
+4. There is also the next level to learn where we need to open the url if we can not get the file in the url, in this article we go to no.1 or download.
 5. Ensure it is a **text-based pdf**. If not, that is another topic to learn.
 
 Copyright 2022 Wahyu Ardhitama
