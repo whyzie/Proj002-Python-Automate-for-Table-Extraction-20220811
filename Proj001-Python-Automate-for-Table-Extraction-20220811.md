@@ -1,5 +1,5 @@
-# Automate-with-Python-Projects
-Projects automation using Python
+# Automation Table Extraction with Python Projects
+11 Aug 2022
 ## Welcome! Selamat Datang! Irasshaimase!-いらっしゃいませ, Huānyíng!-欢迎, Bienvenidos, 
 Eoseo osibsio!-어서 오십시오, Svaagat!-स्वागत, Dobro pozhalovat'!-Добро пожаловать, Bienvenue, 'Ahlan wasahlan!-,أهلا وسهلا
 
